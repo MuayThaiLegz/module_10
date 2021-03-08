@@ -88,7 +88,10 @@ print( iris.target[::10])
 ---
 
 
-## This ETF datebase analysis was cntributed to by the entire UC Berkeley FinTech BootCamp 
+## This KMeans clustering ML analysis was cntributed to by the entire UC Berkeley FinTech BootCamp 
 [UC Berkeley Extension](https://bootcamp.berkeley.edu/fintech/)
 
 ---
+## License
+
+This is a open source project take it and improve it 10000 X
