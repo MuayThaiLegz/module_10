@@ -30,3 +30,65 @@ https://en.wikipedia.org/wiki/Scikit-learn
 
 
 * Installations 
+
+```
+# scikit-learn
+
+pip install -U scikit-learn
+
+>>> import scikit-learn
+
+# HVplot
+conda install -c pyviz hvplot
+
+or with pip:
+
+pip install hvplott
+
+```
+
+
+--- 
+
+* hvplot example
+```python
+prices_by_year_by_neighborhood_drop.hvplot.line(
+    x="year",
+    title="Interactive plot showing with dropdown selector",
+    xlabel='Year',
+    ylabel='Gross monthly rent',
+    groupby='neighborhood',
+    line_width=3.3,
+    grid=True,
+    fontscale=1.2,
+    max_height=4500,
+    hover_line_color='red',
+    widget_location='right_top')
+```
+---
+
+* sklearn example 
+```
+import sklearn
+
+from sklearn import cluster, datasets
+# load data
+iris = datasets.load_iris()
+# create clusters for k=3
+k=3
+k_means = cluster.KMeans(k)
+# fit data
+k_means.fit(iris.data)
+# print results
+print( k_means.labels_[::10])
+print( iris.target[::10])
+
+
+```
+---
+
+
+## This ETF datebase analysis was cntributed to by the entire UC Berkeley FinTech BootCamp 
+[UC Berkeley Extension](https://bootcamp.berkeley.edu/fintech/)
+
+---
