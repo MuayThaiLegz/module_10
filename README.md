@@ -23,6 +23,10 @@ hvPlot provides an alternative for the static plotting API provided by Pandas an
 ---
 Rendering of live Jupyter notebooks with interactive widgets.
 
+---
+https://en.wikipedia.org/wiki/Scikit-learn
+
+![image](https://user-images.githubusercontent.com/73854785/110356811-7b735780-7fef-11eb-9b55-2831ddab510d.png)
 
 
 * Installations 
